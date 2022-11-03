@@ -9,12 +9,12 @@
 assim que você concluir o registro será fornecido seu clientID e o cliente secret, copie eles para uma variável de ambiente
 - Selecione o checkbox de Enable Device Flow e Update application
 
-## Aplicando o oAuth na sua aplicação - Login com o github
+## Aplicando o oAuth - Login com o github
 
 - Instale as dependências necessárias: `npm install next-auth`
-- Na pasta `pages` entre na pasta `api` (se não tiver alguma dessas pastas, adicione) e crie o arquivo `[...nextauth].js`
+- Entre no diretório `pages/api`, crie um diretório auth com um arquivo `[...nextauth].js`, resultando em:  `pages/api/auth/[...nextauth].js`
 - Siga conforme a documentação pede: https://next-auth.js.org/getting-started/example
-- Caso tenha alguma dúvida sinta-se livre para percorrer os arquivos e compreender e praticar a utilização, não compie e cole isso irá afetar seu desenvolvimento.
+- Caso tenha alguma dúvida, sinta-se livre para percorrer os arquivos, compreender e praticar. Não copie e cole, pois afetará no seu desenvolvimento.
 
 ## Siga-me nas redes
 
@@ -26,4 +26,5 @@ assim que você concluir o registro será fornecido seu clientID e o cliente sec
 
 ## Deploy
 
-- Link para conexão: https://oauth-dusky.vercel.app/
+- Link para deploy: https://oauth-dusky.vercel.app/
+- Link do artigo com o passo a passo: https://medium.com/@andreyna.m.carvalho/entenda-oauth-e-aplique-4667525295bf
